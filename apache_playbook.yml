@@ -1,0 +1,22 @@
+---
+
+# YAML documents begin with the document separator ---
+
+# The minus in YAML this indicates a list item.  The playbook contains a list
+# of plays, with each play being a dictionary
+
+-
+
+  # Target: where our play will run and options it will run with or you can limit to specific hosts with -l
+  # ansible-playbook apache_playbook.yml -l <ip or hostname of server where apache will be installed>
+
+  hosts: all
+
+  # Roles: list of roles to be imported into the play
+
+  roles:
+    - apache
+
+# Three dots indicate the end of a YAML document
+
+...
