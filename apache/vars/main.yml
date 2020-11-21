@@ -2,5 +2,5 @@
 app_user: "ubuntu"
 http_host: "pinar.uk"
 http_conf: "pinar.uk.conf"
-http_port: "8080"
+http_port: "80"
 disable_default: true
