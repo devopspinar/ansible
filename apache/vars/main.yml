@@ -1,5 +1,5 @@
 ---
-app_user: "ec2-user"
+app_user: "ubuntu"
 http_host: "pinar.uk"
 http_conf: "pinar.uk.conf"
 http_port: "8080"

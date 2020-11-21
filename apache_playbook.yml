@@ -10,7 +10,7 @@
   # Target: where our play will run and options it will run with or you can limit to specific hosts with -l
   # ansible-playbook apache_playbook.yml -l <ip or hostname of server where apache will be installed>
 
-  hosts: all
+  hosts: localhost
 
   # Roles: list of roles to be imported into the play
 
